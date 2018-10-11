@@ -10,6 +10,16 @@ public class Team8 {
 		System.out.println("병합 한드아");
 		System.out.println("adadada");
 
+		System.out.println("334");
+		System.out.println("334");
+
+
+		
+		System.out.println("334");
+		System.out.println("334");
+		System.out.println("334");
+
+
 	}
 
 }
