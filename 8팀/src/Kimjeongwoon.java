@@ -5,6 +5,7 @@ public class Kimjeongwoon {
 		// TODO Auto-generated method stub
 
 		System.out.println("asdada");
+		System.out.println("asfafqfqfqfq");
 	}
 
 }
