@@ -5,6 +5,8 @@ public class Team8 {
 		// TODO Auto-generated method stub
 
 		System.out.println("병합 한드아");
+	
+		System.out.println("adadada");
 	}
 
 }
