@@ -19,7 +19,15 @@ public class Team8 {
 		System.out.println("334");
 		System.out.println("334");
 		System.out.println("334");
-
+		
+		
+		System.out.println("334");
+		System.out.println("334");
+		System.out.println("334");
+		
+		System.out.println("334");
+		System.out.println("334");
+		System.out.println("334");
 
 	}
 
