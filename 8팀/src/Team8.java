@@ -8,7 +8,6 @@ public class Team8 {
 		System.out.println("qdqdqdqd");
 		System.out.println("faffaffa");
 		System.out.println("병합 한드아");
-	
 		System.out.println("adadada");
 
 	}
