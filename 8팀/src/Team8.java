@@ -5,7 +5,7 @@ public class Team8 {
 		// TODO Auto-generated method stub
 		
 		System.out.println("334");
-		
+		System.out.println("334");
 	}
 
 }
