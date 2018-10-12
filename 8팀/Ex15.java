@@ -1,4 +1,4 @@
-/usr/bin/bash: wq: command not found
+
 import java.util.Scanner;
 import java.util.*;
 public class Ex15 {
@@ -14,6 +14,7 @@ public class Ex15 {
 				int m=scanner.nextInt();
 				System.out.println(n+"*"+m+"="+(n*m));
 				System.out.println("2017038051오지영");
+				System.out.println("2017038051ohjiyoung22");
 				System.exit(0);
 				//throw e;	 // 예외를 발생시킴
 			}catch(InputMismatchException e){
