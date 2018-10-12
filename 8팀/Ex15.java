@@ -1,4 +1,4 @@
-
+/usr/bin/bash: wq: command not found
 import java.util.Scanner;
 import java.util.*;
 public class Ex15 {
