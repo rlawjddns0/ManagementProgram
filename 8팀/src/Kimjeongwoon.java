@@ -6,6 +6,7 @@ public class Kimjeongwoon {
 
 		System.out.println("asdada");
 		System.out.println("asfafqfqfqfq");
+		System.out.prinln("java");
 	}
 
 }
