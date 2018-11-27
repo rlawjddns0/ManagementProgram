@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="506.0" prefWidth="1092.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ComController">
+   <children>
+      <Label alignment="CENTER" layoutX="242.0" layoutY="62.0" text="년" />
+      <Label alignment="CENTER" layoutX="515.0" layoutY="62.0" text="월" />
+      <AnchorPane fx:id="dataPane" layoutX="64.0" layoutY="150.0" prefHeight="335.0" prefWidth="473.0" />
+      <ComboBox fx:id="year" layoutX="75.0" layoutY="58.0" onAction="#changeYearMonth" prefWidth="150.0" />
+      <ComboBox fx:id="month" layoutX="345.0" layoutY="58.0" onAction="#changeYearMonth" prefWidth="150.0" />
+      <Label alignment="CENTER" layoutX="64.0" layoutY="128.0" text="Sun" textFill="#f80000" />
+      <Label alignment="CENTER" layoutX="135.0" layoutY="128.0" text="Mon" textFill="#0a0a0a" />
+      <Label alignment="CENTER" layoutX="205.0" layoutY="128.0" text="Tue" textFill="#0a0a0a" />
+      <Label alignment="CENTER" layoutX="273.0" layoutY="128.0" text="Wen" textFill="#0a0a0a" />
+      <Label alignment="CENTER" layoutX="345.0" layoutY="128.0" text="Thu" textFill="#0a0a0a" />
+      <Label alignment="CENTER" layoutX="414.0" layoutY="128.0" text="Fri" textFill="#0a0a0a" />
+      <Label alignment="CENTER" layoutX="485.0" layoutY="128.0" text="Sat" textFill="#1a07e3" />
+      <Text fx:id="text" layoutX="700.0" layoutY="76.0" scaleY="3.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="285.6513671875">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Text>
+   </children>
+</AnchorPane>
