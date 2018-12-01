@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="619.0" prefWidth="793.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.memoController">
+   <children>
+      <Label fx:id="labelDate_y" layoutX="190.0" layoutY="52.0" />
+      <TextArea fx:id="information" layoutX="31.0" layoutY="292.0" prefHeight="200.0" prefWidth="717.0" />
+      <Label layoutX="38.0" layoutY="257.0" text="내용 입력" />
+      <Button layoutX="272.0" layoutY="537.0" onAction="#save" text="저장" />
+      <Button layoutX="433.0" layoutY="537.0" onAction="#cancel" text="취소" />
+      <Label fx:id="labelDate_m" layoutX="200.0" layoutY="52.0" />
+      <Label fx:id="labelDate_d" layoutX="210.0" layoutY="52.0" />
+      <Label fx:id="labelDate_m1" layoutX="38.0" layoutY="223.0" prefHeight="19.0" prefWidth="41.0" text="장소" />
+      <Label fx:id="labelDate_m11" layoutX="38.0" layoutY="186.0" prefHeight="19.0" prefWidth="41.0" text="주제" />
+      <TextField fx:id="title" layoutX="91.0" layoutY="181.0" prefHeight="29.0" prefWidth="473.0" />
+      <TextField fx:id="place" layoutX="91.0" layoutY="219.0" prefHeight="29.0" prefWidth="473.0" />
+      <TextField fx:id="year" layoutX="701.0" layoutY="576.0" prefHeight="29.0" prefWidth="84.0" visible="false" />
+      <TextField fx:id="d_day" layoutX="701.0" layoutY="586.0" prefHeight="29.0" prefWidth="84.0" visible="false" />
+   </children>
+</AnchorPane>
